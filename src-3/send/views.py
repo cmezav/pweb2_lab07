@@ -8,6 +8,5 @@ def index(request):
     'cmv151219@gmail.com',
     ['cmezav@unsa.edu.pe'],
     fail_silently=False)
-    
-    return render(request, 'send/index.html')
 
+    return render(request, 'send/index.html')
